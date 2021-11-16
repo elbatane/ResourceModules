@@ -28,7 +28,7 @@ The default parameter values are based on the needs of deploying a diagnostic st
 
 | Parameter Name | Type | Default Value | Possible Values | Description |
 | :-- | :-- | :-- | :-- | :-- |
-| `allowBlobPublicAccess` | bool | `True` |  | Optional. Indicates whether public access is enabled for all blobs or containers in the storage account. |
+| `allowBlobPublicAccess` | bool | `False` |  | Optional. Indicates whether public access is enabled for all blobs or containers in the storage account. |
 | `azureFilesIdentityBasedAuthentication` | object | `{object}` |  | Optional. Provides the identity based authentication settings for Azure Files. |
 | `basetime` | string | `[utcNow('u')]` |  | Generated. Do not provide a value! This date value is used to generate a SAS token to access the modules. |
 | `blobServices` | _[blobServices](blobServices/readme.md)_ object | `{object}` |  | Optional. Blob service and containers to deploy |
